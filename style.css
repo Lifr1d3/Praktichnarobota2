@@ -1,0 +1,59 @@
+/* Основні налаштування сторінки */
+body {
+    background-color: navy; /*загальний фон темніше тому що на світлому неможлмво було прочитати жовтий текст */
+    font-family: Arial;
+    font-size: 16px;
+    color: yellow;
+}
+
+/* Текстовий блок */
+.text-box {
+    background-color: #2c3e50;
+    border: 20px dotted black;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* Перше фото */
+.photo1 {
+    width: 25%;
+    height: auto;
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+/* Друге фото */
+.photo2 {
+    width: 20%;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Звичайні посилання */
+.external-link {
+    color: darkred;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.external-link:hover {
+    color: white;
+    background-color: darkred;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+/* Зображення-посилання */
+.image-link img {
+    border: 3px solid red;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.image-link img:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
